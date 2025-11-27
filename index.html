@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.mjs"></script>
+</head>
+
+<body>
+  <div class="controls">
+    <button id="layoutToggle" aria-pressed="false">Switch to QWERTY</button>
+  </div>
+  <div class="container">
+    <!-- Keys: use buttons with stable numeric data-index (1..30) -->
+    <button class="key" data-index="1" aria-pressed="false"></button>
+    <button class="key" data-index="2" aria-pressed="false"></button>
+    <button class="key" data-index="3" aria-pressed="false"></button>
+    <button class="key" data-index="4" aria-pressed="false"></button>
+    <button class="key" data-index="5" aria-pressed="false"></button>
+    <button class="key" data-index="6" aria-pressed="false"></button>
+    <button class="key" data-index="7" aria-pressed="false"></button>
+    <button class="key" data-index="8" aria-pressed="false"></button>
+    <button class="key" data-index="9" aria-pressed="false"></button>
+    <button class="key" data-index="10" aria-pressed="false"></button>
+    <button class="key" data-index="11" aria-pressed="false"></button>
+    <button class="key" data-index="12" aria-pressed="false"></button>
+    <button class="key" data-index="13" aria-pressed="false"></button>
+    <button class="key" data-index="14" aria-pressed="false"></button>
+    <button class="key" data-index="15" aria-pressed="false"></button>
+    <button class="key" data-index="16" aria-pressed="false"></button>
+    <button class="key" data-index="17" aria-pressed="false"></button>
+    <button class="key" data-index="18" aria-pressed="false"></button>
+    <button class="key" data-index="19" aria-pressed="false"></button>
+    <button class="key" data-index="20" aria-pressed="false"></button>
+    <button class="key" data-index="21" aria-pressed="false"></button>
+    <button class="key" data-index="22" aria-pressed="false"></button>
+    <button class="key" data-index="23" aria-pressed="false"></button>
+    <button class="key" data-index="24" aria-pressed="false"></button>
+    <button class="key" data-index="25" aria-pressed="false"></button>
+    <button class="key" data-index="26" aria-pressed="false"></button>
+    <button class="key" data-index="27" aria-pressed="false"></button>
+    <button class="key" data-index="28" aria-pressed="false"></button>
+    <button class="key" data-index="29" aria-pressed="false"></button>
+    <button class="key" data-index="30" aria-pressed="false"></button>
+    <!-- Bottom row: ESP (space) spans 5 columns, DEL spans 5 columns -->
+    <button class="key space" data-action="space" aria-pressed="false">ESP</button>
+    <button class="key del" data-action="del" aria-pressed="false" aria-label="Delete">←</button>
+  </div>
+  <div class="choices"></div>
+</body>
+
+</html>
