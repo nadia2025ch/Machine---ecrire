@@ -31,7 +31,7 @@
 }
 
 #layoutToggle {
-  background: #2b6cb0;
+  background: #8c2bb0;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -41,11 +41,11 @@
 }
 
 #layoutToggle[aria-pressed="true"] {
-  background: #2f855a;
+  background: #5260c6;
 }
 
 .choices>button {
-  background-color: #cc002c;
+  background-color: #333339;
   color: white;
   border-radius: 8px;
   min-width: 64px;
@@ -63,8 +63,8 @@
 }
 
 .container>button.key {
-  background-color: #e9eef2;
-  color: #111827;
+  background-color: #8ea7e0;
+  color: #0003cc;
   border-radius: 6px;
   min-width: 48px;
   height: 48px;
@@ -83,9 +83,9 @@
 
 /* AZERTY layout visual distinction */
 .container.azerty>button.key {
-  background-color: #dbeefe;
+  background-color: #ba7bca;
   /* light blue tint for AZERTY */
-  color: #0b3b5a;
+  color: #8a2a6ddc;
 }
 
 .container>button.key:hover {
@@ -115,7 +115,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #a5a2a2;
   margin: 0;
   padding: 20px;
 }
