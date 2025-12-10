@@ -97,4 +97,4 @@ export function numberToSymbol(layout, n) {
   if (!entry) return "";
   return layout === "AZERTY" ? entry.az : entry.qw;
 }
-export default{AZERTY_30,QWERTY_30,SYMBOL_MAP,numberToSymbol};
+
